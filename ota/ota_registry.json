@@ -3,8 +3,23 @@
     "1.0": {
       "flavors": {
         "development": {
-          "latestOtaVersion": 1,
-          "patches": []
+          "latestOtaVersion": 2,
+          "patches": [
+            {
+              "id": "v1-to-v2-development-ios",
+              "label": "V1 → V2 (development ios)",
+              "appVersion": "1.0",
+              "filename": "patch_1.0_v1_to_v2_development_ios.patch",
+              "fromVersion": 1,
+              "toVersion": 2,
+              "platform": "ios",
+              "baseHash": "63e91e149cc5959576edbe42458f05998b735a05ee6d2576689782ee77fd1311",
+              "bundleHash": "2536cb164a748cf5f66ae1aa617776267e4d9fabba6c6d219dfddfa500ae5ed5",
+              "fullBundleUrl": "bundle_1.0_v2_ios_development.hbc",
+              "assetManifestUrl": "asset-manifest-v2_development.json",
+              "flavor": "development"
+            }
+          ]
         }
       }
     }
