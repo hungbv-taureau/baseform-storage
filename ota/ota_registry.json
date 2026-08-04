@@ -1,3 +1,55 @@
 {
-  "apps": {}
+  "apps": {
+    "1.0": {
+      "flavors": {
+        "development": {
+          "latestOtaVersion": 4,
+          "patches": [
+            {
+              "id": "v1-to-v4-development-ios",
+              "label": "V1 → V4 (development ios)",
+              "appVersion": "1.0",
+              "filename": "patch_1.0_v1_to_v4_development_ios.patch",
+              "fromVersion": 1,
+              "toVersion": 4,
+              "platform": "ios",
+              "baseHash": "21f8856075c6362934d9ab0955a758a24f6c4301c95452f306489814289578cc",
+              "bundleHash": "21f8856075c6362934d9ab0955a758a24f6c4301c95452f306489814289578cc",
+              "fullBundleUrl": "bundle_1.0_v4_ios_development.hbc",
+              "assetManifestUrl": "asset-manifest-v4_development.json",
+              "flavor": "development"
+            },
+            {
+              "id": "v2-to-v4-development-ios",
+              "label": "V2 → V4 (development ios)",
+              "appVersion": "1.0",
+              "filename": "patch_1.0_v2_to_v4_development_ios.patch",
+              "fromVersion": 2,
+              "toVersion": 4,
+              "platform": "ios",
+              "baseHash": "21f8856075c6362934d9ab0955a758a24f6c4301c95452f306489814289578cc",
+              "bundleHash": "21f8856075c6362934d9ab0955a758a24f6c4301c95452f306489814289578cc",
+              "fullBundleUrl": "bundle_1.0_v4_ios_development.hbc",
+              "assetManifestUrl": "asset-manifest-v4_development.json",
+              "flavor": "development"
+            },
+            {
+              "id": "v3-to-v4-development-ios",
+              "label": "V3 → V4 (development ios)",
+              "appVersion": "1.0",
+              "filename": "patch_1.0_v3_to_v4_development_ios.patch",
+              "fromVersion": 3,
+              "toVersion": 4,
+              "platform": "ios",
+              "baseHash": "21f8856075c6362934d9ab0955a758a24f6c4301c95452f306489814289578cc",
+              "bundleHash": "21f8856075c6362934d9ab0955a758a24f6c4301c95452f306489814289578cc",
+              "fullBundleUrl": "bundle_1.0_v4_ios_development.hbc",
+              "assetManifestUrl": "asset-manifest-v4_development.json",
+              "flavor": "development"
+            }
+          ]
+        }
+      }
+    }
+  }
 }
