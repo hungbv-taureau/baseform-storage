@@ -1,7 +1,12 @@
 {
-    "apps": {
-        "1.0": {
-            "flavors": {}
+  "apps": {
+    "1.0": {
+      "flavors": {
+        "development": {
+          "latestOtaVersion": 1,
+          "patches": []
         }
+      }
     }
+  }
 }
