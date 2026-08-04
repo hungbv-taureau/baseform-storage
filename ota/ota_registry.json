@@ -1,27 +1,7 @@
 {
     "apps": {
         "1.0": {
-            "flavors": {
-                "staging": {
-                    "latestOtaVersion": 2,
-                    "patches": [
-                        {
-                            "id": "v1-to-v2-staging-ios",
-                            "label": "V1 → V2 (staging ios)",
-                            "appVersion": "1.0",
-                            "filename": "patch_1.0_v1_to_v2_staging_ios.patch",
-                            "fromVersion": 1,
-                            "toVersion": 2,
-                            "platform": "ios",
-                            "baseHash": "63e91e149cc5959576edbe42458f05998b735a05ee6d2576689782ee77fd1311",
-                            "bundleHash": "317cdb630fee3b81f94fbbe511717a19dce1efe70c2a0c265cebf914ab64845f",
-                            "fullBundleUrl": "bundle_1.0_v2_ios_staging.hbc",
-                            "assetManifestUrl": "asset-manifest-v2_staging.json",
-                            "flavor": "staging"
-                        }
-                    ]
-                }
-            }
+            "flavors": {}
         }
     }
 }
