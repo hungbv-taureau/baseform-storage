@@ -48,6 +48,10 @@
               "flavor": "development"
             }
           ]
+        },
+        "staging": {
+          "latestOtaVersion": 1,
+          "patches": []
         }
       }
     }
