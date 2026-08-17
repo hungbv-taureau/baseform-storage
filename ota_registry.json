@@ -1,218 +1,198 @@
 {
-  "apps": {
-    "1.0": {
-      "flavors": {
-        "development": {
-          "latestOtaVersion": 14,
-          "patches": [
-            {
-              "id": "v1-to-v14-development-ios",
-              "label": "V1 → V14 (development ios)",
-              "appVersion": "1.0",
-              "filename": "patch_1.0_v1_to_v14_development_ios.patch",
-              "fromVersion": 1,
-              "toVersion": 14,
-              "platform": "ios",
-              "baseHash": "63e91e149cc5959576edbe42458f05998b735a05ee6d2576689782ee77fd1311",
-              "bundleHash": "fda6058d5a55764acf584bad686244dd802bd6ff102f561c8c0e8578d4f84d5b",
-              "fullBundleUrl": "bundle_1.0_v14_ios_development.hbc",
-              "assetManifestUrl": "asset-manifest-v14_development.json",
-              "flavor": "development"
-            },
-            {
-              "id": "v2-to-v14-development-ios",
-              "label": "V2 → V14 (development ios)",
-              "appVersion": "1.0",
-              "filename": "patch_1.0_v2_to_v14_development_ios.patch",
-              "fromVersion": 2,
-              "toVersion": 14,
-              "platform": "ios",
-              "baseHash": "2536cb164a748cf5f66ae1aa617776267e4d9fabba6c6d219dfddfa500ae5ed5",
-              "bundleHash": "fda6058d5a55764acf584bad686244dd802bd6ff102f561c8c0e8578d4f84d5b",
-              "fullBundleUrl": "bundle_1.0_v14_ios_development.hbc",
-              "assetManifestUrl": "asset-manifest-v14_development.json",
-              "flavor": "development"
-            },
-            {
-              "id": "v3-to-v14-development-ios",
-              "label": "V3 → V14 (development ios)",
-              "appVersion": "1.0",
-              "filename": "patch_1.0_v3_to_v14_development_ios.patch",
-              "fromVersion": 3,
-              "toVersion": 14,
-              "platform": "ios",
-              "baseHash": "da859c122b945c30091e7fd00b8be3649eb2412877abc8b4cda41ce9b3032257",
-              "bundleHash": "fda6058d5a55764acf584bad686244dd802bd6ff102f561c8c0e8578d4f84d5b",
-              "fullBundleUrl": "bundle_1.0_v14_ios_development.hbc",
-              "assetManifestUrl": "asset-manifest-v14_development.json",
-              "flavor": "development"
-            },
-            {
-              "id": "v4-to-v14-development-ios",
-              "label": "V4 → V14 (development ios)",
-              "appVersion": "1.0",
-              "filename": "patch_1.0_v4_to_v14_development_ios.patch",
-              "fromVersion": 4,
-              "toVersion": 14,
-              "platform": "ios",
-              "baseHash": "d2d3b55edbc0a0421d24e54b07fece25aad06b66cb526a57d4a526d4c8025e5d",
-              "bundleHash": "fda6058d5a55764acf584bad686244dd802bd6ff102f561c8c0e8578d4f84d5b",
-              "fullBundleUrl": "bundle_1.0_v14_ios_development.hbc",
-              "assetManifestUrl": "asset-manifest-v14_development.json",
-              "flavor": "development"
-            },
-            {
-              "id": "v5-to-v14-development-ios",
-              "label": "V5 → V14 (development ios)",
-              "appVersion": "1.0",
-              "filename": "patch_1.0_v5_to_v14_development_ios.patch",
-              "fromVersion": 5,
-              "toVersion": 14,
-              "platform": "ios",
-              "baseHash": "0aa7a5747da235cceaa127c30855540daf065f274638678ab681b4ff96d27fd5",
-              "bundleHash": "fda6058d5a55764acf584bad686244dd802bd6ff102f561c8c0e8578d4f84d5b",
-              "fullBundleUrl": "bundle_1.0_v14_ios_development.hbc",
-              "assetManifestUrl": "asset-manifest-v14_development.json",
-              "flavor": "development"
-            },
-            {
-              "id": "v6-to-v14-development-ios",
-              "label": "V6 → V14 (development ios)",
-              "appVersion": "1.0",
-              "filename": "patch_1.0_v6_to_v14_development_ios.patch",
-              "fromVersion": 6,
-              "toVersion": 14,
-              "platform": "ios",
-              "baseHash": "edeaf6858a2a8a8e8bf8491c935144b383d2b04aef30aa9497b3cf484905f2fb",
-              "bundleHash": "fda6058d5a55764acf584bad686244dd802bd6ff102f561c8c0e8578d4f84d5b",
-              "fullBundleUrl": "bundle_1.0_v14_ios_development.hbc",
-              "assetManifestUrl": "asset-manifest-v14_development.json",
-              "flavor": "development"
-            },
-            {
-              "id": "v7-to-v14-development-ios",
-              "label": "V7 → V14 (development ios)",
-              "appVersion": "1.0",
-              "filename": "patch_1.0_v7_to_v14_development_ios.patch",
-              "fromVersion": 7,
-              "toVersion": 14,
-              "platform": "ios",
-              "baseHash": "eb89c3b54d8295390a5c5e22ef5f0b61ff4ed86b9fd432b0dcfe27b7a5a98a91",
-              "bundleHash": "fda6058d5a55764acf584bad686244dd802bd6ff102f561c8c0e8578d4f84d5b",
-              "fullBundleUrl": "bundle_1.0_v14_ios_development.hbc",
-              "assetManifestUrl": "asset-manifest-v14_development.json",
-              "flavor": "development"
-            },
-            {
-              "id": "v8-to-v14-development-ios",
-              "label": "V8 → V14 (development ios)",
-              "appVersion": "1.0",
-              "filename": "patch_1.0_v8_to_v14_development_ios.patch",
-              "fromVersion": 8,
-              "toVersion": 14,
-              "platform": "ios",
-              "baseHash": "d27dbe5d86cdd829eb5de387b85fc0a54a7cd9ee95c431dc13cc9f861c3ae589",
-              "bundleHash": "fda6058d5a55764acf584bad686244dd802bd6ff102f561c8c0e8578d4f84d5b",
-              "fullBundleUrl": "bundle_1.0_v14_ios_development.hbc",
-              "assetManifestUrl": "asset-manifest-v14_development.json",
-              "flavor": "development"
-            },
-            {
-              "id": "v9-to-v14-development-ios",
-              "label": "V9 → V14 (development ios)",
-              "appVersion": "1.0",
-              "filename": "patch_1.0_v9_to_v14_development_ios.patch",
-              "fromVersion": 9,
-              "toVersion": 14,
-              "platform": "ios",
-              "baseHash": "974786b0e6d7f088bbb5ec5e1a77432989d7ccd0e4ed01c6f115fd5b34518930",
-              "bundleHash": "fda6058d5a55764acf584bad686244dd802bd6ff102f561c8c0e8578d4f84d5b",
-              "fullBundleUrl": "bundle_1.0_v14_ios_development.hbc",
-              "assetManifestUrl": "asset-manifest-v14_development.json",
-              "flavor": "development"
-            },
-            {
-              "id": "v10-to-v14-development-ios",
-              "label": "V10 → V14 (development ios)",
-              "appVersion": "1.0",
-              "filename": "patch_1.0_v10_to_v14_development_ios.patch",
-              "fromVersion": 10,
-              "toVersion": 14,
-              "platform": "ios",
-              "baseHash": "f9483801a5e120c1cc9cf62dfb339c2c91b26b41851e703aa7e5de63973cdb6e",
-              "bundleHash": "fda6058d5a55764acf584bad686244dd802bd6ff102f561c8c0e8578d4f84d5b",
-              "fullBundleUrl": "bundle_1.0_v14_ios_development.hbc",
-              "assetManifestUrl": "asset-manifest-v14_development.json",
-              "flavor": "development"
-            },
-            {
-              "id": "v11-to-v14-development-ios",
-              "label": "V11 → V14 (development ios)",
-              "appVersion": "1.0",
-              "filename": "patch_1.0_v11_to_v14_development_ios.patch",
-              "fromVersion": 11,
-              "toVersion": 14,
-              "platform": "ios",
-              "baseHash": "0a0347394b48bbf40b46da48702522258a48da43de390cb3bcb29787fd74c521",
-              "bundleHash": "fda6058d5a55764acf584bad686244dd802bd6ff102f561c8c0e8578d4f84d5b",
-              "fullBundleUrl": "bundle_1.0_v14_ios_development.hbc",
-              "assetManifestUrl": "asset-manifest-v14_development.json",
-              "flavor": "development"
-            },
-            {
-              "id": "v12-to-v14-development-ios",
-              "label": "V12 → V14 (development ios)",
-              "appVersion": "1.0",
-              "filename": "patch_1.0_v12_to_v14_development_ios.patch",
-              "fromVersion": 12,
-              "toVersion": 14,
-              "platform": "ios",
-              "baseHash": "fe564392fdab5b9b44326667b8e7e6f6f421635fff9fd2d1aa373164a86c927f",
-              "bundleHash": "fda6058d5a55764acf584bad686244dd802bd6ff102f561c8c0e8578d4f84d5b",
-              "fullBundleUrl": "bundle_1.0_v14_ios_development.hbc",
-              "assetManifestUrl": "asset-manifest-v14_development.json",
-              "flavor": "development"
-            },
-            {
-              "id": "v13-to-v14-development-ios",
-              "label": "V13 → V14 (development ios)",
-              "appVersion": "1.0",
-              "filename": "patch_1.0_v13_to_v14_development_ios.patch",
-              "fromVersion": 13,
-              "toVersion": 14,
-              "platform": "ios",
-              "baseHash": "e5fe7780c1bbaef6a2ae35552fee3faad316e9650379da84db905031c0bdaa49",
-              "bundleHash": "fda6058d5a55764acf584bad686244dd802bd6ff102f561c8c0e8578d4f84d5b",
-              "fullBundleUrl": "bundle_1.0_v14_ios_development.hbc",
-              "assetManifestUrl": "asset-manifest-v14_development.json",
-              "flavor": "development"
+    "apps": {
+        "1.0": {
+            "flavors": {
+                "development": {
+                    "latestOtaVersion": 14,
+                    "patches": [
+                        {
+                            "id": "v1-to-v14-development-ios",
+                            "label": "V1 → V14 (development ios)",
+                            "appVersion": "1.0",
+                            "filename": "patch_1.0_v1_to_v14_development_ios.patch",
+                            "fromVersion": 1,
+                            "toVersion": 14,
+                            "platform": "ios",
+                            "baseHash": "63e91e149cc5959576edbe42458f05998b735a05ee6d2576689782ee77fd1311",
+                            "bundleHash": "fda6058d5a55764acf584bad686244dd802bd6ff102f561c8c0e8578d4f84d5b",
+                            "fullBundleUrl": "bundle_1.0_v14_ios_development.hbc",
+                            "assetManifestUrl": "asset-manifest-v14_development.json",
+                            "flavor": "development"
+                        },
+                        {
+                            "id": "v2-to-v14-development-ios",
+                            "label": "V2 → V14 (development ios)",
+                            "appVersion": "1.0",
+                            "filename": "patch_1.0_v2_to_v14_development_ios.patch",
+                            "fromVersion": 2,
+                            "toVersion": 14,
+                            "platform": "ios",
+                            "baseHash": "2536cb164a748cf5f66ae1aa617776267e4d9fabba6c6d219dfddfa500ae5ed5",
+                            "bundleHash": "fda6058d5a55764acf584bad686244dd802bd6ff102f561c8c0e8578d4f84d5b",
+                            "fullBundleUrl": "bundle_1.0_v14_ios_development.hbc",
+                            "assetManifestUrl": "asset-manifest-v14_development.json",
+                            "flavor": "development"
+                        },
+                        {
+                            "id": "v3-to-v14-development-ios",
+                            "label": "V3 → V14 (development ios)",
+                            "appVersion": "1.0",
+                            "filename": "patch_1.0_v3_to_v14_development_ios.patch",
+                            "fromVersion": 3,
+                            "toVersion": 14,
+                            "platform": "ios",
+                            "baseHash": "da859c122b945c30091e7fd00b8be3649eb2412877abc8b4cda41ce9b3032257",
+                            "bundleHash": "fda6058d5a55764acf584bad686244dd802bd6ff102f561c8c0e8578d4f84d5b",
+                            "fullBundleUrl": "bundle_1.0_v14_ios_development.hbc",
+                            "assetManifestUrl": "asset-manifest-v14_development.json",
+                            "flavor": "development"
+                        },
+                        {
+                            "id": "v4-to-v14-development-ios",
+                            "label": "V4 → V14 (development ios)",
+                            "appVersion": "1.0",
+                            "filename": "patch_1.0_v4_to_v14_development_ios.patch",
+                            "fromVersion": 4,
+                            "toVersion": 14,
+                            "platform": "ios",
+                            "baseHash": "d2d3b55edbc0a0421d24e54b07fece25aad06b66cb526a57d4a526d4c8025e5d",
+                            "bundleHash": "fda6058d5a55764acf584bad686244dd802bd6ff102f561c8c0e8578d4f84d5b",
+                            "fullBundleUrl": "bundle_1.0_v14_ios_development.hbc",
+                            "assetManifestUrl": "asset-manifest-v14_development.json",
+                            "flavor": "development"
+                        },
+                        {
+                            "id": "v5-to-v14-development-ios",
+                            "label": "V5 → V14 (development ios)",
+                            "appVersion": "1.0",
+                            "filename": "patch_1.0_v5_to_v14_development_ios.patch",
+                            "fromVersion": 5,
+                            "toVersion": 14,
+                            "platform": "ios",
+                            "baseHash": "0aa7a5747da235cceaa127c30855540daf065f274638678ab681b4ff96d27fd5",
+                            "bundleHash": "fda6058d5a55764acf584bad686244dd802bd6ff102f561c8c0e8578d4f84d5b",
+                            "fullBundleUrl": "bundle_1.0_v14_ios_development.hbc",
+                            "assetManifestUrl": "asset-manifest-v14_development.json",
+                            "flavor": "development"
+                        },
+                        {
+                            "id": "v6-to-v14-development-ios",
+                            "label": "V6 → V14 (development ios)",
+                            "appVersion": "1.0",
+                            "filename": "patch_1.0_v6_to_v14_development_ios.patch",
+                            "fromVersion": 6,
+                            "toVersion": 14,
+                            "platform": "ios",
+                            "baseHash": "edeaf6858a2a8a8e8bf8491c935144b383d2b04aef30aa9497b3cf484905f2fb",
+                            "bundleHash": "fda6058d5a55764acf584bad686244dd802bd6ff102f561c8c0e8578d4f84d5b",
+                            "fullBundleUrl": "bundle_1.0_v14_ios_development.hbc",
+                            "assetManifestUrl": "asset-manifest-v14_development.json",
+                            "flavor": "development"
+                        },
+                        {
+                            "id": "v7-to-v14-development-ios",
+                            "label": "V7 → V14 (development ios)",
+                            "appVersion": "1.0",
+                            "filename": "patch_1.0_v7_to_v14_development_ios.patch",
+                            "fromVersion": 7,
+                            "toVersion": 14,
+                            "platform": "ios",
+                            "baseHash": "eb89c3b54d8295390a5c5e22ef5f0b61ff4ed86b9fd432b0dcfe27b7a5a98a91",
+                            "bundleHash": "fda6058d5a55764acf584bad686244dd802bd6ff102f561c8c0e8578d4f84d5b",
+                            "fullBundleUrl": "bundle_1.0_v14_ios_development.hbc",
+                            "assetManifestUrl": "asset-manifest-v14_development.json",
+                            "flavor": "development"
+                        },
+                        {
+                            "id": "v8-to-v14-development-ios",
+                            "label": "V8 → V14 (development ios)",
+                            "appVersion": "1.0",
+                            "filename": "patch_1.0_v8_to_v14_development_ios.patch",
+                            "fromVersion": 8,
+                            "toVersion": 14,
+                            "platform": "ios",
+                            "baseHash": "d27dbe5d86cdd829eb5de387b85fc0a54a7cd9ee95c431dc13cc9f861c3ae589",
+                            "bundleHash": "fda6058d5a55764acf584bad686244dd802bd6ff102f561c8c0e8578d4f84d5b",
+                            "fullBundleUrl": "bundle_1.0_v14_ios_development.hbc",
+                            "assetManifestUrl": "asset-manifest-v14_development.json",
+                            "flavor": "development"
+                        },
+                        {
+                            "id": "v9-to-v14-development-ios",
+                            "label": "V9 → V14 (development ios)",
+                            "appVersion": "1.0",
+                            "filename": "patch_1.0_v9_to_v14_development_ios.patch",
+                            "fromVersion": 9,
+                            "toVersion": 14,
+                            "platform": "ios",
+                            "baseHash": "974786b0e6d7f088bbb5ec5e1a77432989d7ccd0e4ed01c6f115fd5b34518930",
+                            "bundleHash": "fda6058d5a55764acf584bad686244dd802bd6ff102f561c8c0e8578d4f84d5b",
+                            "fullBundleUrl": "bundle_1.0_v14_ios_development.hbc",
+                            "assetManifestUrl": "asset-manifest-v14_development.json",
+                            "flavor": "development"
+                        },
+                        {
+                            "id": "v10-to-v14-development-ios",
+                            "label": "V10 → V14 (development ios)",
+                            "appVersion": "1.0",
+                            "filename": "patch_1.0_v10_to_v14_development_ios.patch",
+                            "fromVersion": 10,
+                            "toVersion": 14,
+                            "platform": "ios",
+                            "baseHash": "f9483801a5e120c1cc9cf62dfb339c2c91b26b41851e703aa7e5de63973cdb6e",
+                            "bundleHash": "fda6058d5a55764acf584bad686244dd802bd6ff102f561c8c0e8578d4f84d5b",
+                            "fullBundleUrl": "bundle_1.0_v14_ios_development.hbc",
+                            "assetManifestUrl": "asset-manifest-v14_development.json",
+                            "flavor": "development"
+                        },
+                        {
+                            "id": "v11-to-v14-development-ios",
+                            "label": "V11 → V14 (development ios)",
+                            "appVersion": "1.0",
+                            "filename": "patch_1.0_v11_to_v14_development_ios.patch",
+                            "fromVersion": 11,
+                            "toVersion": 14,
+                            "platform": "ios",
+                            "baseHash": "0a0347394b48bbf40b46da48702522258a48da43de390cb3bcb29787fd74c521",
+                            "bundleHash": "fda6058d5a55764acf584bad686244dd802bd6ff102f561c8c0e8578d4f84d5b",
+                            "fullBundleUrl": "bundle_1.0_v14_ios_development.hbc",
+                            "assetManifestUrl": "asset-manifest-v14_development.json",
+                            "flavor": "development"
+                        },
+                        {
+                            "id": "v12-to-v14-development-ios",
+                            "label": "V12 → V14 (development ios)",
+                            "appVersion": "1.0",
+                            "filename": "patch_1.0_v12_to_v14_development_ios.patch",
+                            "fromVersion": 12,
+                            "toVersion": 14,
+                            "platform": "ios",
+                            "baseHash": "fe564392fdab5b9b44326667b8e7e6f6f421635fff9fd2d1aa373164a86c927f",
+                            "bundleHash": "fda6058d5a55764acf584bad686244dd802bd6ff102f561c8c0e8578d4f84d5b",
+                            "fullBundleUrl": "bundle_1.0_v14_ios_development.hbc",
+                            "assetManifestUrl": "asset-manifest-v14_development.json",
+                            "flavor": "development"
+                        },
+                        {
+                            "id": "v13-to-v14-development-ios",
+                            "label": "V13 → V14 (development ios)",
+                            "appVersion": "1.0",
+                            "filename": "patch_1.0_v13_to_v14_development_ios.patch",
+                            "fromVersion": 13,
+                            "toVersion": 14,
+                            "platform": "ios",
+                            "baseHash": "e5fe7780c1bbaef6a2ae35552fee3faad316e9650379da84db905031c0bdaa49",
+                            "bundleHash": "fda6058d5a55764acf584bad686244dd802bd6ff102f561c8c0e8578d4f84d5b",
+                            "fullBundleUrl": "bundle_1.0_v14_ios_development.hbc",
+                            "assetManifestUrl": "asset-manifest-v14_development.json",
+                            "flavor": "development"
+                        }
+                    ]
+                }
             }
-          ]
+        },
+        "1.0.1": {
+            "flavors": {}
         }
-      }
-    },
-    "1.0.1": {
-      "flavors": {
-        "development": {
-          "latestOtaVersion": 2,
-          "patches": [
-            {
-              "id": "v1-to-v2-development-ios",
-              "label": "V1 → V2 (development ios)",
-              "appVersion": "1.0.1",
-              "filename": "patch_1.0.1_v1_to_v2_development_ios.patch",
-              "fromVersion": 1,
-              "toVersion": 2,
-              "platform": "ios",
-              "baseHash": "404931500e957d6728206d8b2ac8de788da62772d39486358aa6f8cf63e4a203",
-              "bundleHash": "19e9e11c96c1ca2004c8caa3d8db5f2564c57157848e21deabba0bbf611c678a",
-              "fullBundleUrl": "bundle_1.0.1_v2_ios_development.hbc",
-              "assetManifestUrl": "asset-manifest-v2_development.json",
-              "flavor": "development"
-            }
-          ]
-        }
-      }
     }
-  }
 }
