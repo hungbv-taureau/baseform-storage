@@ -194,34 +194,48 @@
     "1.0.1": {
       "flavors": {
         "development": {
-          "latestOtaVersion": 3,
+          "latestOtaVersion": 4,
           "patches": [
             {
-              "id": "v1-to-v3-development-ios",
-              "label": "V1 → V3 (development ios)",
+              "id": "v1-to-v4-development-ios",
+              "label": "V1 → V4 (development ios)",
               "appVersion": "1.0.1",
-              "filename": "patch_1.0.1_v1_to_v3_development_ios.patch",
+              "filename": "patch_1.0.1_v1_to_v4_development_ios.patch",
               "fromVersion": 1,
-              "toVersion": 3,
+              "toVersion": 4,
               "platform": "ios",
               "baseHash": "404931500e957d6728206d8b2ac8de788da62772d39486358aa6f8cf63e4a203",
-              "bundleHash": "40aeb4b8f28b0f461021623ab837b725ed68d89b15fa2d61f117441f311b7a2f",
-              "fullBundleUrl": "bundle_1.0.1_v3_ios_development.hbc",
-              "assetManifestUrl": "asset-manifest-v3_development.json",
+              "bundleHash": "a32e13f3dcb085689524b41c8ea7233a7a94e2cf5c8c50028187f695e3a70c30",
+              "fullBundleUrl": "bundle_1.0.1_v4_ios_development.hbc",
+              "assetManifestUrl": "asset-manifest-v4_development.json",
               "flavor": "development"
             },
             {
-              "id": "v2-to-v3-development-ios",
-              "label": "V2 → V3 (development ios)",
+              "id": "v2-to-v4-development-ios",
+              "label": "V2 → V4 (development ios)",
               "appVersion": "1.0.1",
-              "filename": "patch_1.0.1_v2_to_v3_development_ios.patch",
+              "filename": "patch_1.0.1_v2_to_v4_development_ios.patch",
               "fromVersion": 2,
-              "toVersion": 3,
+              "toVersion": 4,
               "platform": "ios",
               "baseHash": "19e9e11c96c1ca2004c8caa3d8db5f2564c57157848e21deabba0bbf611c678a",
-              "bundleHash": "40aeb4b8f28b0f461021623ab837b725ed68d89b15fa2d61f117441f311b7a2f",
-              "fullBundleUrl": "bundle_1.0.1_v3_ios_development.hbc",
-              "assetManifestUrl": "asset-manifest-v3_development.json",
+              "bundleHash": "a32e13f3dcb085689524b41c8ea7233a7a94e2cf5c8c50028187f695e3a70c30",
+              "fullBundleUrl": "bundle_1.0.1_v4_ios_development.hbc",
+              "assetManifestUrl": "asset-manifest-v4_development.json",
+              "flavor": "development"
+            },
+            {
+              "id": "v3-to-v4-development-ios",
+              "label": "V3 → V4 (development ios)",
+              "appVersion": "1.0.1",
+              "filename": "patch_1.0.1_v3_to_v4_development_ios.patch",
+              "fromVersion": 3,
+              "toVersion": 4,
+              "platform": "ios",
+              "baseHash": "40aeb4b8f28b0f461021623ab837b725ed68d89b15fa2d61f117441f311b7a2f",
+              "bundleHash": "a32e13f3dcb085689524b41c8ea7233a7a94e2cf5c8c50028187f695e3a70c30",
+              "fullBundleUrl": "bundle_1.0.1_v4_ios_development.hbc",
+              "assetManifestUrl": "asset-manifest-v4_development.json",
               "flavor": "development"
             }
           ]
