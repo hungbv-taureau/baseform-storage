@@ -297,8 +297,23 @@
           ]
         },
         "staging": {
-          "latestOtaVersion": 1,
-          "patches": []
+          "latestOtaVersion": 2,
+          "patches": [
+            {
+              "id": "v1-to-v2-staging-ios",
+              "label": "V1 → V2 (staging ios)",
+              "appVersion": "1.0.1",
+              "filename": "patch_1.0.1_v1_to_v2_staging_ios.patch",
+              "fromVersion": 1,
+              "toVersion": 2,
+              "platform": "ios",
+              "baseHash": "183b6dea4c325ca7b9e14b77a8820ca5800def8cc526da2ed19512315bf924f0",
+              "bundleHash": "bd0963d0052af20d7493fd881c124b5be90b0e87219ddecb2f5a5ba63ca2dc8e",
+              "fullBundleUrl": "bundle_1.0.1_v2_ios_staging.hbc",
+              "assetManifestUrl": "asset-manifest-v2_staging.json",
+              "flavor": "staging"
+            }
+          ]
         }
       }
     }
