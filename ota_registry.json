@@ -325,34 +325,48 @@
           ]
         },
         "staging": {
-          "latestOtaVersion": 3,
+          "latestOtaVersion": 4,
           "patches": [
             {
-              "id": "v1-to-v3-staging-ios",
-              "label": "V1 → V3 (staging ios)",
+              "id": "v1-to-v4-staging-ios",
+              "label": "V1 → V4 (staging ios)",
               "appVersion": "1.0.1",
-              "filename": "patch_1.0.1_v1_to_v3_staging_ios.patch",
+              "filename": "patch_1.0.1_v1_to_v4_staging_ios.patch",
               "fromVersion": 1,
-              "toVersion": 3,
+              "toVersion": 4,
               "platform": "ios",
               "baseHash": "183b6dea4c325ca7b9e14b77a8820ca5800def8cc526da2ed19512315bf924f0",
-              "bundleHash": "395b4ec68a7a685dee967c90a48c2874dd90e3dc8aa6a0cdfff6042f64c804c8",
-              "fullBundleUrl": "bundle_1.0.1_v3_ios_staging.hbc",
-              "assetManifestUrl": "asset-manifest-v3_staging.json",
+              "bundleHash": "e61e1f6f75d8deacb248c35a3e4e7a0bd300052dcc4c3eaf1bf7de1357d712af",
+              "fullBundleUrl": "bundle_1.0.1_v4_ios_staging.hbc",
+              "assetManifestUrl": "asset-manifest-v4_staging.json",
               "flavor": "staging"
             },
             {
-              "id": "v2-to-v3-staging-ios",
-              "label": "V2 → V3 (staging ios)",
+              "id": "v2-to-v4-staging-ios",
+              "label": "V2 → V4 (staging ios)",
               "appVersion": "1.0.1",
-              "filename": "patch_1.0.1_v2_to_v3_staging_ios.patch",
+              "filename": "patch_1.0.1_v2_to_v4_staging_ios.patch",
               "fromVersion": 2,
-              "toVersion": 3,
+              "toVersion": 4,
               "platform": "ios",
               "baseHash": "bd0963d0052af20d7493fd881c124b5be90b0e87219ddecb2f5a5ba63ca2dc8e",
-              "bundleHash": "395b4ec68a7a685dee967c90a48c2874dd90e3dc8aa6a0cdfff6042f64c804c8",
-              "fullBundleUrl": "bundle_1.0.1_v3_ios_staging.hbc",
-              "assetManifestUrl": "asset-manifest-v3_staging.json",
+              "bundleHash": "e61e1f6f75d8deacb248c35a3e4e7a0bd300052dcc4c3eaf1bf7de1357d712af",
+              "fullBundleUrl": "bundle_1.0.1_v4_ios_staging.hbc",
+              "assetManifestUrl": "asset-manifest-v4_staging.json",
+              "flavor": "staging"
+            },
+            {
+              "id": "v3-to-v4-staging-ios",
+              "label": "V3 → V4 (staging ios)",
+              "appVersion": "1.0.1",
+              "filename": "patch_1.0.1_v3_to_v4_staging_ios.patch",
+              "fromVersion": 3,
+              "toVersion": 4,
+              "platform": "ios",
+              "baseHash": "395b4ec68a7a685dee967c90a48c2874dd90e3dc8aa6a0cdfff6042f64c804c8",
+              "bundleHash": "e61e1f6f75d8deacb248c35a3e4e7a0bd300052dcc4c3eaf1bf7de1357d712af",
+              "fullBundleUrl": "bundle_1.0.1_v4_ios_staging.hbc",
+              "assetManifestUrl": "asset-manifest-v4_staging.json",
               "flavor": "staging"
             }
           ]
