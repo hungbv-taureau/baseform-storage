@@ -245,8 +245,23 @@
     "1.0.2": {
       "flavors": {
         "staging": {
-          "latestOtaVersion": 1,
-          "patches": []
+          "latestOtaVersion": 2,
+          "patches": [
+            {
+              "id": "v1-to-v2-staging-android",
+              "label": "V1 → V2 (staging android)",
+              "appVersion": "1.0.2",
+              "filename": "patch_1.0.2_v1_to_v2_staging_android.patch",
+              "fromVersion": 1,
+              "toVersion": 2,
+              "platform": "android",
+              "baseHash": "f483b3122c306c4dac0c09dcfbc0337d68d0f47863d81499b88fd7f8801811ea",
+              "bundleHash": "91c45c7b98eccb522c959e6ddc81f775352d461a3e41eb87b66be784f4fdfb95",
+              "fullBundleUrl": "bundle_1.0.2_v2_android_staging.hbc",
+              "assetManifestUrl": "asset-manifest-v2_staging.json",
+              "flavor": "staging"
+            }
+          ]
         }
       }
     }
