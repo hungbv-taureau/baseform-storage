@@ -260,6 +260,20 @@
               "fullBundleUrl": "bundle_1.0.2_v2_android_staging.hbc",
               "assetManifestUrl": "asset-manifest-v2_staging.json",
               "flavor": "staging"
+            },
+            {
+              "id": "v1-to-v2-staging-ios",
+              "label": "V1 → V2 (staging ios)",
+              "appVersion": "1.0.2",
+              "filename": "patch_1.0.2_v1_to_v2_staging_ios.patch",
+              "fromVersion": 1,
+              "toVersion": 2,
+              "platform": "ios",
+              "baseHash": "efcc112153d0fdd8f167622c3869a180f3799defd8fc728b0aa2b2e71cebe71e",
+              "bundleHash": "abc163ee012d725b238460caf699cc34970ce53b9492ae179405d931398d4950",
+              "fullBundleUrl": "bundle_1.0.2_v2_ios_staging.hbc",
+              "assetManifestUrl": "asset-manifest-v2_staging.json",
+              "flavor": "staging"
             }
           ]
         }
