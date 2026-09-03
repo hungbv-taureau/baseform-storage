@@ -276,6 +276,10 @@
               "flavor": "staging"
             }
           ]
+        },
+        "development": {
+          "latestOtaVersion": 1,
+          "patches": []
         }
       }
     }
